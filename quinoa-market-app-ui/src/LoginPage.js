@@ -37,7 +37,7 @@ const LoginPage = () => {
                                         <Button variant="secondary" className="mr-4" type="submit">
                                             Sign In
                                         </Button>
-                                        <Button variant="secondary" className="mr-4">
+                                        <Button variant="secondary" className="mr-4" onClick={() => handleClick("signUp")}>
                                             Sign Up
                                         </Button>
                                         <div className="divider">
